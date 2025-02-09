@@ -12,16 +12,15 @@
 
 **MENTOR**: NEELA SANTHOSH KUMAR
 
-**DESCRIPTION**:CODTECH IT SOLUTIONS
-CLOUD COMPUTING INTERNSHIP
-TASK-1: Cloud Storage Setup on AWS S3
+**DESCRIPTION**:
+**TASK-1:** Cloud Storage Setup on AWS S3
 
-1. Introduction
+**1. Introduction**
 Amazon Simple Storage Service (AWS S3) is a highly scalable cloud storage solution that enables users to store and retrieve data efficiently. This report outlines the process of setting up an AWS S3 bucket, uploading files, and configuring the necessary access permissions to manage the storage securely.
 
-2. Implementation Steps
+**2. Implementation Steps**
 
-Step 1: Create an S3 Bucket
+**Step 1**: Create an S3 Bucket
 The first step in the process is creating a new S3 bucket for storing files. The steps involved are:
 
 Log in to the AWS Management Console.
@@ -32,7 +31,7 @@ Choose an appropriate AWS region where the bucket will be hosted.
 Configure the Block Public Access Settings based on the requirements.
 Click "Create Bucket" to finalize the creation.
 
-Step 2: Upload Example Files
+**Step 2**: Upload Example Files
 Once the bucket is created, the next step is to upload example files for testing purposes:
 
 Open the newly created S3 bucket.
@@ -40,7 +39,7 @@ Click on the "Upload" button.
 Select "Add Files" and choose files such as example.txt or image.jpg.
 Click "Upload" to transfer the files into the S3 bucket.
 
-Step 3: Configure Access Permissions
+**Step 3**: Configure Access Permissions
 Configuring permissions ensures the appropriate access control for the files. In this case, public read access is configured:
 
 Go to the Permissions tab of the bucket.
@@ -61,7 +60,7 @@ Edit
   ]
 }
 Click "Save Changes" to apply the policy.
-3. Verification and Testing
+**3.Verification and Testing**
 To ensure everything was set up correctly, the following verifications were performed:
 
 The S3 bucket was created successfully.
@@ -70,3 +69,23 @@ The access permissions were correctly configured.
 The bucket policy for public read access was successfully applied (if required).
 4. Conclusion
 This report describes the steps taken to set up and configure an AWS S3 bucket, upload files, and configure access permissions. The process ensures secure file storage with the necessary controls for public or private access as required. This setup can be further optimized with additional features like lifecycle policies or encryption for enhanced security.
+
+**OUTPUT**:
+**PROOF1**:CREATING BUCKET
+
+![Image](https://github.com/user-attachments/assets/6d736642-6f19-43fb-af8c-6b406eaf1ad5)
+
+
+**PROOF2**:STORING FILES
+
+![Image](https://github.com/user-attachments/assets/91f7e556-8e2b-408d-9ece-60142f4220a9)
+
+
+**PROOF3**:POLICIES ATTACHED
+
+![Image](https://github.com/user-attachments/assets/f0909919-836b-4696-ae10-f82c50d9e4aa)
+
+
+**PROOF4**:FILE THAT HAS BEEN ACCESSED
+
+![Image](https://github.com/user-attachments/assets/4bd81b2d-bfaf-487b-a039-2aa636f9c5a9)
